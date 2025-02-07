@@ -1,0 +1,60 @@
+body {
+    background-color: magenta;
+}
+h1, h2{
+
+    font-family: "Dancing Script", serif;
+}
+
+p {
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center
+}
+
+.tigre {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.léopard {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 5px;
+}
+
+.lion {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.image {
+    text-align: center
+}
+
+.jaguars {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 250px;
+}
